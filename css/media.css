@@ -1,0 +1,2405 @@
+@media(max-width:575.98px) {
+
+    .preloader img {
+        transform: translate(-50%, -50%) scale(.3);
+    }
+
+    .top-area ul li:first-child::before {
+        width: 0;
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 28px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #FDFDFD;
+    }
+
+    .navbar-toggler span {
+        color: #fdfdfd;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sticky.navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item ul {
+        left: 50%;
+        transform: translateX(-50%) !important;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-close {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 80px;
+    }
+
+    .navbar .navbar-nav .nav-item ul {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:hover>ul {
+        display: block;
+    }
+
+    .brand-item {
+        padding: 10px 25px;
+    }
+
+    .add-to-cart2 {
+        position: fixed;
+        top: 25%;
+        right: 0;
+    }
+
+    .add-to-cart2 li a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        color: #fdfdfd;
+        background: #9BB70D;
+        padding: 5px 7px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .add-to-cart2 li a:hover {
+        background: #fdfdfd;
+        color: #9BB70D;
+    }
+
+    .slide-item1,
+    .slide-item2,
+    .slide-item3,
+    .slide-item4 {
+        padding-top: 150px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    #video-ver .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text h1 span {
+        font-size: 40px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: calc(100% - 50px);
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+    }
+
+    .slick-dots button {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .bslide-arrow {
+        display: none;
+    }
+
+    .banner-text ul li a {
+        padding: 8px 16px;
+    }
+
+    .noor-about {
+        display: none;
+    }
+
+    .extra-about {
+        display: none;
+    }
+
+    #about {
+        padding-top: 58px;
+        padding-bottom: 68px;
+    }
+
+    .about-play {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-play i {
+        font-size: 40px;
+    }
+
+    .sagor-about {
+        display: block;
+    }
+
+    .about-head h2 {
+        font-size: 30px;
+        padding-bottom: 34px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-btn {
+        margin-top: 30px;
+    }
+
+    .about-btn a {
+        padding: 8px 16px;
+    }
+
+    #join,
+    #join2 {
+        text-align: center;
+    }
+
+    #join2 {
+        padding-bottom: 50px;
+    }
+
+    .join-left h3 {
+        font-size: 22px;
+    }
+
+    .join-btn {
+        text-align: center;
+    }
+
+    .join-btn a {
+        padding: 8px 16px;
+    }
+
+    #join {
+        padding-bottom: 50px;
+    }
+
+    #classes {
+        padding-top: 58px;
+        padding-bottom: 30px;
+    }
+
+    .classes-head h2 {
+        font-size: 30px;
+    }
+
+    .classes-head p {
+        padding-bottom: 5px;
+    }
+
+    .cslide-arrow {
+        display: none;
+    }
+
+    #trainers {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .trainers-head h2 {
+        font-size: 30px;
+    }
+
+    .trainers-head p {
+        padding-bottom: 5px;
+    }
+
+    .tslide-arrow {
+        display: none;
+    }
+
+    .calculator {
+        text-align: center;
+    }
+
+    .noormohammad {
+        display: none;
+    }
+
+    .bmi-result {
+        padding: 19px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #schedule {
+        padding-top: 60px;
+        padding-bottom: 57px;
+    }
+
+    .schedule-head p {
+        padding-bottom: 35px;
+    }
+
+    .schedule-side {
+        display: none;
+    }
+
+    .nav {
+        margin-bottom: 0;
+    }
+
+    .schedule-item i {
+        font-size: 40px;
+    }
+
+    .schedule-item p {
+        font-size: 13px;
+    }
+
+    .schedule-item {
+        padding: 5px;
+    }
+
+    .schedule-item h4 {
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #fact {
+        padding-top: 3px;
+    }
+
+    #gallery {
+        padding-top: 60px;
+        padding-bottom: 71px;
+    }
+
+    .gallery-head p {
+        padding-bottom: 35px;
+    }
+
+    #gallery .gallery-btn {
+        margin-top: 10px;
+    }
+
+    #offer, #offer2 {
+        padding-top: 33px;
+        padding-top: 37px;
+    }
+
+    #product {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .product-head p {
+        padding-bottom: 5px;
+    }
+
+    #product .card-body {
+        padding: 23px 30px;
+        padding-bottom: 30px;
+    }
+
+    .other-products .card {
+        margin-bottom: 0 !important;
+    }
+
+    #up-product {
+        padding-top: 0;
+    }
+
+    #up-product h2 {
+        font-size: 30px;
+        padding-top: 54px;
+        text-align: center;
+    }
+
+    #up-product h2 span {
+        font-size: 40px;
+    }
+
+    #up-product p {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+
+    .up-btn2 {
+        margin-top: 5px;
+        margin-bottom: 72px;
+    }
+
+    .up-btn2 ul {
+        text-align: center;
+    }
+
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    #blog .card h5 {
+        font-size: 16px;
+    }
+
+    .blog-head p {
+        padding-bottom: 5px;
+    }
+
+    #membership {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
+
+    .membership-head h2 {
+        font-size: 30px;
+    }
+
+    .membership-head p {
+        padding-bottom: 35px;
+    }
+
+    .memship-btn a {
+        padding: 8px 16px;
+    }
+
+    .membership-item {
+        margin-bottom: 28px;
+    }
+
+    #testimonials {
+        padding-top: 60px;
+        padding-bottom: 29px;
+    }
+
+    .testimonials-head h2 {
+        font-size: 30px;
+    }
+
+    .testimonials-head p {
+        padding-bottom: 5px;
+    }
+
+    .test-item p {
+        font-size: 14px;
+    }
+
+    .test-name h5 {
+        font-size: 17px;
+        padding-top: 7px;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .test-name p {
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .teslide-arrow {
+        display: none;
+    }
+
+    .contact-head h2 {
+        font-size: 30px;
+    }
+
+    .locate i {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+
+    .con-left {
+        padding-left: 0 !important;
+    }
+
+    .con-right {
+        padding-right: 0 !important;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .contact-info {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        padding-top: 39px;
+    }
+
+    .footer-logo p {
+        padding-top: 20px;
+    }
+
+    .footer-item {
+        padding-bottom: 0;
+    }
+
+    .footer-news {
+        padding-bottom: 40px;
+    }
+
+    .footer-item h3 {
+        padding-top: 20px;
+    }
+
+    .cpryt p {
+        line-height: 24px;
+        padding: 20px 0;
+    }
+
+    .cpryt {
+        padding-top: 9px;
+        padding-bottom: 30px;
+    }
+
+    #breadcumb {
+        padding-top: 111px;
+        padding-bottom: 22px;
+    }
+
+    #breadcumb .bnr-overlay h1 {
+        font-size: 30px;
+    }
+
+    .classes-page {
+        padding-bottom: 60px !important;
+    }
+
+    .grid-border .grid-view ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .grid-border .grid-view ul li a i {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 33px;
+    }
+
+    .grid-border .sort-by select {
+        font-size: 14px;
+        height: 35px;
+        padding: 0 20px;
+        padding-left: 10px;
+    }
+
+    .price-filter {
+        margin-top: 10px;
+    }
+
+    .grid-border .p-show p {
+        text-align: center;
+    }
+
+    .page-border {
+        margin-bottom: 28px;
+    }
+
+    .discount-slide {
+        margin-bottom: 30px;
+    }
+
+    .product-details .tab-part .nav-tabs .nav-link:after {
+        height: 14px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .product-details .tab-part .nav-tabs #contact-tab:after {
+        display: none;
+    }
+
+    .product-details .tab-part p {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .other-products {
+        padding-top: 33px;
+        padding-bottom: 42px;
+    }
+
+    .other-products .card:hover {
+        margin-top: 30px !important;
+    }
+
+    .gallery-btn {
+        margin-top: 40px;
+    }
+
+    #checkout {
+        padding-top: 53px;
+        padding-bottom: 60px;
+    }
+
+    .gallery-page {
+        padding-bottom: 30px !important;
+    }
+
+    .blog-page {
+        padding-bottom: 30px !important;
+    }
+
+    #blog .card:hover {
+        margin-top: 30px;
+    }
+
+    #cart {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    .cart-info th {
+        font-size: 15px;
+    }
+
+    .pro-info h3 {
+        font-size: 14px;
+    }
+
+    .table td,
+    .table th {
+        padding: 2px;
+    }
+
+    .cart-info th {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .cart-star i {
+        font-size: 13px;
+    }
+
+    .pro-info p {
+        font-size: 13px;
+    }
+
+    #cart .quantity-button.quantity-up {
+        left: 11px;
+        top: -23px;
+    }
+
+    #cart .quantity-button.quantity-down {
+        left: 11px;
+        top: 25px;
+    }
+
+    #cart .quantity input {
+        border: 1px solid #dddddd;
+    }
+
+    .cart-total {
+        margin-top: 40px;
+    }
+
+    .total-amount {
+        margin-top: 30px;
+    }
+
+    #cart .cart-btn {
+        text-align: center;
+    }
+
+    #blog-details {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .blog-de-date {
+        text-align: center;
+    }
+
+    .blog-de-date h6 {
+        margin-left: 0;
+    }
+
+    .blog-social {
+        text-align: center;
+    }
+
+    .blog-single h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .blog-tag li a {
+        font-size: 12px;
+        padding: 3px 14px;
+    }
+
+    .blog-tag {
+        padding-bottom: 20px;
+    }
+
+    .blog-single p {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .blog-quote p {
+        margin: 10px 30px;
+        padding: 0 5px;
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .blog-comment h3 {
+        padding-top: 31px;
+    }
+
+    #see-more {
+        padding-top: 55px;
+    }
+
+    #see-more .card {
+        margin-bottom: 30px;
+    }
+
+    #see-more .card h5 a {
+        font-size: 19px;
+    }
+
+    #classes .card:hover {
+        margin-top: 30px;
+    }
+
+    .membership-item:hover {
+        margin-top: 0px;
+    }
+
+    .form-lg-right,
+    .form-right {
+        text-align: right;
+    }
+
+    #product .card:hover {
+        margin-top: 30px;
+    }
+
+    .xs-padding {
+        padding-top: 38px;
+    }
+
+    #v-pills-tab {
+        padding-bottom:2px;
+    }
+
+    #contact {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    @media(width:480px) {
+
+        .overlay {
+            width: 60%;
+        }
+
+        .gallery-btn {
+            margin-top: 13px;
+        }
+
+        .trainers-item:hover .overlay {
+            height: 60%;
+            opacity: 1;
+        }
+
+        .test-img {
+            padding-left: 40px;
+            padding-right: 10px;
+        }
+
+        #up-product img {
+            width: 100%;
+        }
+
+        .up-btn2 {
+            margin-top: -30px;
+            margin-bottom: 70px;
+        }
+
+        #up-product h2 {
+            padding-top: 52px;
+        }
+
+        #blog {
+            padding-bottom: 0px;
+        }
+
+        .fact-border::before {
+            width: 110px;
+        }
+
+        .fact-border::after {
+            width: 110px;
+        }
+
+        .footer-news .input-grpc {
+            margin: 0 50px;
+        }
+
+        .product-details .tab-part .nav-tabs #contact-tab:after {
+            display: block;
+        }
+
+        .gallery-btn {
+            margin-top: 39px;
+        }
+
+        .table td,
+        .table th {
+            padding: 15px;
+        }
+
+    }
+
+    @media(width:575px) {
+
+        .gallery-btn {
+            margin-top: 11px;
+        }
+
+        .overlay h4 {
+            font-size: 17px;
+            padding-top: 3px;
+        }
+
+        .overlay p {
+            font-size: 13px;
+            padding-top: 5px;
+            padding-bottom: 8px;
+            line-height: 22px;
+        }
+
+        .test-item {
+            padding: 0px;
+            margin: 30px 0;
+        }
+
+        .test-name p {
+            font-size: 13px;
+        }
+
+        .small-p {
+            padding: 10px 15px;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        .fact-border::before {
+            width: 140px;
+        }
+
+        .fact-border::after {
+            width: 140px;
+        }
+
+        .quote i {
+            top: -15px;
+        }
+
+        #product .card-body {
+            padding: 23px 25px;
+        }
+
+        #product {
+            padding-top: 56px;
+            padding-bottom: 59px;
+        }
+
+        #up-product img {
+            margin-bottom: -50px;
+            width: 100%;
+        }
+
+        .up-btn2 {
+            margin-top: -50px;
+            margin-bottom: 72px;
+        }
+
+        #blog {
+            padding-top: 60px;
+            padding-bottom: 0;
+        }
+
+        #blog .card h5 {
+            font-size: 14px;
+        }
+
+        .footer-news .input-grpc {
+            margin: 0 80px;
+        }
+
+        #product {
+            padding-top: 60px;
+            padding-bottom: 30px;
+        }
+
+        #up-product h2 {
+            padding-top: 51px;
+        }
+
+        .product-details .tab-part .nav-tabs #contact-tab:after {
+            display: block;
+        }
+
+        .table td,
+        .table th {
+            padding: 25px;
+        }
+
+        .product-details .gallery-btn {
+            margin-top: 41px;
+        }
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px) {
+
+    .preloader img {
+        transform: translate(-50%, -50%) scale(.3);
+    }
+
+    .navbar-light .navbar-brand {
+        font-size: 28px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #FDFDFD;
+    }
+
+    .navbar-toggler span {
+        color: #fdfdfd;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sticky.navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item ul {
+        left: 50%;
+        transform: translateX(-50%) !important;
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:hover>ul {
+        display: block;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-close {
+        display: none;
+    }
+
+    .add-to-cart2 {
+        position: fixed;
+        top: 25%;
+        right: 0;
+    }
+
+    .add-to-cart2 li a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        color: #fdfdfd;
+        background: #9BB70D;
+        padding: 5px 7px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .add-to-cart2 li a:hover {
+        background: #fdfdfd;
+        color: #9BB70D;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 80px;
+    }
+
+    .slide-item1,
+    .slide-item2,
+    .slide-item3,
+    .slide-item4 {
+        padding-top: 230px;
+        padding-bottom: 100px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text h1 span {
+        font-size: 40px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: calc(100% - 60px);
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+    }
+
+    .slick-dots button {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .bslide-arrow {
+        display: none;
+    }
+
+    .banner-text ul li a {
+        padding: 8px 16px;
+    }
+
+    .noor-about {
+        display: none;
+    }
+
+    #about {
+        padding-top: 60px;
+        padding-bottom: 68px;
+    }
+
+    .about-play {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-play i {
+        font-size: 40px;
+    }
+
+    .sagor-about {
+        display: block;
+    }
+
+    .about-head h2 {
+        font-size: 30px;
+        padding-bottom: 34px;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-btn {
+        margin-top: 30px;
+    }
+
+    .about-btn a {
+        padding: 8px 16px;
+    }
+
+    #join {
+        text-align: center;
+    }
+
+    .join-left h3 {
+        font-size: 22px;
+    }
+
+    .join-btn {
+        text-align: center;
+    }
+
+    .join-btn a {
+        padding: 8px 16px;
+    }
+
+    #join {
+        padding-bottom: 50px;
+    }
+
+    .classes-head p {
+        padding-bottom: 5px;
+    }
+
+    #classes {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .classes-head h2 {
+        font-size: 30px;
+    }
+
+    .cslide-arrow {
+        display: none;
+    }
+
+    .features-sm-bg {
+        background: #444444;
+    }
+
+    .features-sm-bg2 {
+        background: #333333;
+    }
+
+    #trainers {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .trainers-head h2 {
+        font-size: 30px;
+    }
+
+    .trainers-head p {
+        padding-bottom: 5px;
+    }
+
+    .tslide-arrow {
+        display: none;
+    }
+
+    .overlay {
+        padding: 8px 10px;
+    }
+
+    .overlay h4 {
+        font-size: 19px;
+        padding-top: 5px;
+    }
+
+    .overlay p {
+        font-size: 13px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        line-height: 22px;
+    }
+
+    .noormohammad {
+        display: none;
+    }
+
+    #bmi {
+        padding-bottom: 60px;
+    }
+
+    .calculator h3 {
+        padding-top: 20px;
+    }
+
+    .calculator p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .bmi-result {
+        padding: 19px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #schedule {
+        padding-top: 60px;
+        padding-bottom: 57px;
+    }
+
+    .schedule-head p {
+        padding-bottom: 35px;
+    }
+
+    .schedule-side {
+        display: none;
+    }
+
+    #v-pills-tab {
+        padding-bottom:2px;
+    }
+
+    .nav {
+        margin-bottom: 27px;
+    }
+
+    .schedule-item i {
+        font-size: 40px;
+    }
+
+    .schedule-item p {
+        font-size: 13px;
+    }
+
+    .schedule-item {
+        padding: 5px;
+    }
+
+    .schedule-item h4 {
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #fact {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    #membership {
+        padding-top: 60px;
+        padding-bottom: 32px;
+    }
+
+    .membership-head h2 {
+        font-size: 30px;
+    }
+
+    .membership-head p {
+        padding-bottom: 35px;
+    }
+
+    .memship-btn a {
+        padding: 8px 16px;
+    }
+
+    .membership-item {
+        margin-bottom: 28px;
+    }
+
+    #join2 {
+        padding-bottom: 45px;
+    }
+
+    #gallery {
+        padding-top: 60px;
+        padding-bottom: 71px;
+    }
+
+    .gallery-head p {
+        padding-bottom: 35px;
+    }
+
+    #product {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .product-head p {
+        padding-bottom: 5px;
+    }
+
+    #product .card-body {
+        padding: 25px 17px;
+    }
+
+    #up-product {
+        padding-top: 0;
+    }
+
+    #up-product h2 {
+        font-size: 30px;
+        padding: 0 30px;
+        padding-top: 42px;
+        text-align: center;
+    }
+
+    #up-product h2 span {
+        font-size: 40px;
+    }
+
+    #up-product p {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    #up-product img {
+        width:100%;
+    }
+
+    .up-btn2 {
+        margin-top: -35px;
+        margin-bottom: 70px;
+    }
+
+    .up-btn2 ul {
+        text-align: center;
+    }
+
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .blog-head p {
+        padding-bottom: 5px;
+    }
+
+    #testimonials {
+        padding-top: 60px;
+        padding-bottom: 28px;
+    }
+
+    .testimonials-head h2 {
+        font-size: 30px;
+    }
+
+    .testimonials-head p {
+        padding-bottom: 5px;
+    }
+
+    .test-item p {
+        font-size: 14px;
+    }
+
+    .test-name h5 {
+        font-size: 17px;
+        padding-top: 3px;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .test-name p {
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .test-item {
+        padding: 0px;
+        margin: 30px 0;
+    }
+
+    .test-name p {
+        font-size: 13px;
+    }
+
+    .small-p {
+        padding: 10px 15px;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .quote i {
+        top: -15px;
+    }
+
+    .teslide-arrow {
+        display: none;
+    }
+
+    .contact-head h2 {
+        font-size: 30px;
+    }
+
+    .locate i {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+
+    .con-left {
+        padding-left: 0 !important;
+    }
+
+    .con-right {
+        padding-right: 0 !important;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .contact-info {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-logo p {
+        padding-bottom: 15px;
+    }
+
+    .footer-item ul li {
+        padding-bottom: 15px;
+    }
+
+    .cpryt p {
+        line-height: 24px;
+        padding: 20px 0;
+    }
+
+    #breadcumb {
+        padding-top: 110px;
+        padding-bottom: 47px;
+    }
+
+    .classes-page {
+        padding-bottom: 60px !important;
+    }
+
+    .form-lg-right {
+        text-align:right;
+    }
+
+    .price-filter {
+        padding-top: 10px;
+    }  
+
+    .grid-border .p-show p {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .grid-border .grid-view ul {
+        padding-left: 0px;
+    }
+
+    .product-list-page .p-show p, .product-gridside .p-show p {
+        text-align:right;
+    }
+
+    .form-right select {
+        margin-left:13px;
+    }
+
+    .product-list-page .grid-border, .product-gridside .grid-border {
+        margin-top: 30px !important;
+    }
+
+    .xoom_part {
+        padding-top:30px;
+    }
+
+    .product-details .product-brief h3 {
+        margin-top: 5px;
+    }
+
+    .product-details .tab-part p {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .product-details .nav {
+        margin-bottom: 17px;
+    }
+
+    .other-products {
+        padding-top: 33px;
+        padding-bottom: 40px;
+    }
+
+    .product-details .card {
+        margin-bottom: 0px !important;
+    }
+
+    .other-products .card:hover {
+        margin-top:30px !important;
+    }
+
+    .other-products .gallery-btn {
+        margin-top: 40px;
+    }
+
+    #cart {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .cart-info th {
+        padding: 0 25px;
+    }
+
+    #cart .quantity-button.quantity-up {
+        left: 7px;
+    }
+
+    #cart .quantity-button.quantity-down {
+        left: 57px;
+    }
+    
+    .cart-total {
+        padding-top:55px;
+    }
+
+    .total-amount {
+        margin-top: 30px;
+    }
+
+    #cart .cart-btn {
+        text-align:center;
+    }
+
+    #checkout {
+        padding-top: 53px;
+        padding-bottom: 60px;
+    }
+
+    #checkout .payment-way p {
+        padding-bottom: 15px;
+    }
+
+    .xs-padding {
+        padding-top:38px;
+    }
+
+    .gallery-page {
+        padding-bottom: 40px !important;
+    }
+
+    .blog-page .card:hover {
+        margin-top:30px !important;
+    }
+
+    .blog-page {
+        padding-bottom: 30px !important;
+    }
+
+    #blog-details {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .blog-de-date {
+        padding: 15px 0;
+    }
+
+    .blog-comment h3 {
+        padding-top: 20px;
+    }
+
+    #see-more {
+        padding-top: 53px;
+    }
+}
+
+
+
+@media(min-width:768px) and (max-width:991.98px) {
+
+    .navbar-light .navbar-brand {
+        font-size: 28px;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: #FDFDFD;
+    }
+
+    .navbar-toggler span {
+        color: #fdfdfd;
+        font-size: 20px;
+    }
+
+    .navbar {
+        background: rgba(0, 0, 0, 1);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .sticky.navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .navbar .navbar-nav .nav-item ul {
+        left: 50%;
+        transform: translateX(-50%) !important;
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item:hover>ul {
+        display: block;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-close {
+        display: none;
+    }
+
+    .add-to-cart2 {
+        position: fixed;
+        top: 25%;
+        right: 0;
+    }
+
+    .add-to-cart2 li a {
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        color: #fdfdfd;
+        background: #9BB70D;
+        padding: 5px 7px;
+        transition: all linear .3s;
+        -webkit-transition: all linear .3s;
+        -moz-transition: all linear .3s;
+        -o-transition: all linear .3s;
+    }
+
+    .add-to-cart2 li a:hover {
+        background: #fdfdfd;
+        color: #9BB70D;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-close {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover:before,
+    .navbar-light .navbar-nav .nav-link.active:before {
+        width: 80px;
+    }
+
+    .slide-item1,
+    .slide-item2,
+    .slide-item3,
+    .slide-item4 {
+        padding-top: 260px;
+        padding-bottom: 130px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text h1 span {
+        font-size: 40px;
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: calc(100% - 60px);
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+    }
+
+    .slick-dots button {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .bslide-arrow {
+        display: none;
+    }
+
+    .banner-text ul li a {
+        padding: 8px 16px;
+    }
+
+    .sagor-about {
+        display: none !important;
+    }
+
+    .noor-about {
+        display: none;
+    }
+
+    .extra-about {
+        display: none;
+    }
+
+    #about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .about-play {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-play i {
+        font-size: 40px;
+    }
+
+    .about-head h2 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .about-content p {
+        padding-top: 0;
+        padding-bottom: 10px;
+        line-height: 25px;
+        margin-top: -8px;
+    }
+
+    .about-btn {
+        margin-top: 30px;
+    }
+
+    .about-btn a {
+        padding: 8px 16px;
+    }
+
+    #join {
+        text-align: center;
+    }
+
+    .join-left h3 {
+        font-size: 22px;
+    }
+
+    .join-btn {
+        text-align: center;
+    }
+
+    .join-btn a {
+        padding: 8px 16px;
+    }
+
+    #join {
+        padding-bottom: 41px;
+    }
+
+    #classes {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .classes-head h2 {
+        font-size: 30px;
+    }
+
+    .cslide-arrow {
+        display: none;
+    }
+
+    .features-sm-bg {
+        background: #444444;
+    }
+
+    .features-sm-bg2 {
+        background: #333333;
+    }
+
+    #trainers {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .trainers-head h2 {
+        font-size: 30px;
+    }
+
+    .tslide-arrow {
+        display: none;
+    }
+
+    .overlay {
+        padding: 8px 10px;
+    }
+
+    .overlay h4 {
+        font-size: 17px;
+        padding-top: 2px;
+        padding-bottom: 20px;
+    }
+
+    .overlay p {
+        display: none;
+    }
+
+    .overlay i {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+    }
+
+    #red-ver .overlay {
+        padding: 8px 10px;
+    }
+
+    .trainers-item h3 {
+        padding: 20px 0;
+        font-size:25px;
+    }
+
+    .noormohammad {
+        display: none;
+    }
+
+    #bmi {
+        padding-bottom: 60px;
+    }
+
+    .calculator h3 {
+        padding-top: 20px;
+    }
+
+    .calculator p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .bmi-result {
+        padding: 19px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #schedule {
+        padding-top: 80px;
+        padding-bottom: 77px;
+    }
+
+    .schedule-side {
+        display: none;
+    }
+
+    .nav {
+        margin-bottom: 27px;
+    }
+
+    .schedule-item i {
+        font-size: 40px;
+    }
+
+    .schedule-item p {
+        font-size: 13px;
+    }
+
+    .schedule-item {
+        padding: 5px;
+    }
+
+    .schedule-item h4 {
+        font-size: 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    #fact {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    #gallery {
+        padding-top: 80px;
+        padding-bottom: 91px;
+    }
+
+    #product {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #up-product {
+        padding-top: 50px;
+        padding-bottom:10px;
+    }
+
+    #up-product h2 {
+        font-size: 30px;
+        padding-top: 42px;
+    }
+
+    #up-product h2 span {
+        font-size: 40px;
+    }
+
+    #up-product p {
+        padding-bottom: 10px;
+    }
+
+    #up-product img {
+        width:100%;
+    }
+
+    #blog {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    #membership {
+        padding-top: 80px;
+        padding-bottom: 52px;
+    }
+
+    .membership-head h2 {
+        font-size: 30px;
+    }
+
+    .memship-btn a {
+        padding: 8px 16px;
+    }
+
+    .membership-item {
+        margin-bottom: 28px;
+    }
+
+    .membership-item:hover {
+        margin-top: 0px;
+    }
+
+    #join2 {
+        padding-bottom: 45px;
+    }
+
+    #testimonials {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .testimonials-head h2 {
+        font-size: 30px;
+    }
+
+    .test-item p {
+        font-size: 14px;
+    }
+
+    .test-name h5 {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 4px;
+    }
+
+    .test-name p {
+        font-size: 14px;
+        padding-left: 4px;
+    }
+
+    .test-item {
+        padding: 0px;
+        margin: 30px 0;
+    }
+
+    .test-img {
+        padding-bottom:15px;
+    }
+
+    .small-p {
+        padding: 10px 15px;
+        font-size: 13px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .quote i {
+        top: -15px;
+    }
+
+    .teslide-arrow {
+        display: none;
+    }
+
+    .contact-head h2 {
+        font-size: 30px;
+    }
+
+    .locate i {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+    }
+
+    .con-left {
+        padding-left: 0 !important;
+    }
+
+    .con-right {
+        padding-right: 0 !important;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .contact-info {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-logo p {
+        padding-bottom: 15px;
+    }
+
+    .footer-item ul li {
+        padding-bottom: 15px;
+    }
+
+    .footer-margin-sm {
+        margin-bottom: 10px;
+    }
+
+    .cpryt {
+        padding-top: 0;
+    }
+
+    .cpryt p {
+        line-height: 24px;
+        padding: 20px 0;
+    }
+
+    #breadcumb {
+        padding-bottom: 47px
+    }
+
+    .classes-page {
+        padding-bottom: 80px !important;
+    }
+
+    .grid-border .grid-view ul {
+        padding-left: 0;
+    }
+
+    .form-lg-right, .form-right {
+        text-align:center;
+    }
+
+    .grid-border .p-show p {
+        padding-right: 0px;
+    }
+
+    .product-list-page .grid-border, .product-gridside .grid-border {
+        margin-top: 30px !important;
+    }
+
+    .form-right select {
+        margin-left:65px;
+    }
+
+    .product-list-page .product-list .card-body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .xoom_part {
+        padding-top:30px;
+    }
+
+    .product-details .nav {
+        margin-top:20px;
+        margin-bottom:17px;
+    }
+
+    .product-details .tab-part p {
+        padding-top: 0px;
+    }
+
+    .other-products {
+        padding-top: 56px;
+        padding-bottom: 40px;
+    }
+
+    .product-details .card {
+        margin-bottom:0 !important;
+    }
+
+    .product-details .card:hover {
+        margin-top:30px !important;
+    }
+
+    .other-products .gallery-btn {
+        margin-top:40px;
+    }
+
+    #cart {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .cart-info th {
+        padding: 0 39px;
+    }
+
+    #cart .quantity-button.quantity-down {
+        left: 71px;
+    }
+
+    #cart .quantity-button.quantity-up {
+        left: 21px;
+    }
+
+    .cart-total {
+        margin-top:75px;
+    }
+
+    .total-amount {
+        margin-top: 30px;
+    }
+
+    .total-amount ul li h3 {
+        font-size: 22px;
+    }
+
+    #checkout {
+        padding-top: 72px;
+        padding-bottom: 80px;
+    }
+
+    .register {
+        margin-bottom: 73px;
+    }
+
+    .xs-padding {
+        padding-top:58px;
+    }
+
+    #checkout .payment-way p {
+        padding-bottom: 0px;
+    }
+
+    .gallery-page {
+        padding-bottom: 50px !important;
+    }
+
+    .blog-page .card:hover {
+        margin-top:30px !important;
+    }
+
+    .blog-page {
+        padding-bottom: 50px !important;
+    }
+
+    #blog-details {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    #see-more {
+        padding-top: 74px;
+    }
+
+    #contact {
+        padding-top: 80px;
+        padding-bottom: 76px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    .navbar {
+        top: 43px;
+    }
+
+    .sticky.navbar {
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 6px;
+        margin-left: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before,
+    .navbar-light .navbar-nav .nav-link.active::before {
+        height: 12px;
+    }
+
+    .search-form {
+        width: 480px;
+        height: 34px;
+        top:13px;
+        left: 31%;
+        transform: translateX(0);
+    }
+
+    .search-form::before {
+        width: 550px;
+        height: 1px;
+        bottom: -7px;
+        left: -23px;
+    }
+
+    .search-form button {
+        font-size: 14px;
+        top: 9px;
+        left: -20px;
+    }
+
+    .search-close {
+        top: -4px;
+        right: 29px;
+        height: 65px;
+        line-height: 74px;
+        font-size: 16px;
+    }
+
+    .search-form input {
+        width: 100%;
+        height: 40px;
+        padding-left: 15px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .slide-item1,
+    .slide-item2,
+    .slide-item3,
+    .slide-item4 {
+        padding-top: 160px;
+        padding-bottom: 110px;
+    }
+
+    .extra-about {
+        display: none;
+    }
+
+    .about-992 {
+        display: block;
+        padding-top: 0 !important;
+    }
+
+    .about-content p {
+        line-height: 25px;
+        padding-top: 14px;
+    }
+
+    .overlay p {
+        padding-bottom: 20px;
+    }
+
+    .overlay {
+        padding: 20px;
+    }
+
+    #red-ver .overlay p {
+        padding-bottom: 20px;
+    }
+
+    .bmi-img img {
+        position: absolute;
+        top: 36px;
+        left: 0;
+    }
+
+    .schedule-item {
+        padding: 8px;
+    }
+
+    .schedule-side h3 {
+        font-size: 18px;
+        padding-top: 30px;
+    }
+
+    .schedule-side p {
+        padding-top: 0px;
+    }
+
+    .test-name h5 {
+        font-size: 18px;
+        padding-top: 7px;
+    }
+
+    .test-name p {
+        font-size: 15px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .contact-form .form-control {
+        margin-bottom: 13px;
+    }
+
+    .test-img img {
+        padding-top: 5px;
+    }
+
+    .test-name {
+        padding-top:4px;
+    }
+
+    #product .card-title {
+        font-size: 19px;
+    }
+
+    #product-grid .card-btn a {
+        padding: 3px 5px;
+    }
+
+    #product-grid .wish-btn a {
+        padding: 3px 5px;
+    }
+
+    #product-grid .card-body {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    #product-grid .card-title {
+        margin-bottom: 5px;
+    }
+
+    #product-grid .card-body ul {
+        padding-bottom: 5px;
+    }
+
+    #product-grid .card-body h6 {
+        padding-bottom: 2px;
+    }
+
+    .product-list-page .card-body p {
+        display:none;
+    }
+
+    .product-list-page .pro-list-btn {
+        margin-top: 25px !important;
+    }
+
+    .product-list-page .card-body {
+        padding-left: 5px !important;
+        padding-right: 13px;
+    }
+
+    .other-products .card-btn a {
+        padding: 3px 5px !important;
+    }
+
+    .other-products .wish-btn a {
+        padding: 3px 5px !important;
+    }
+
+    .other-products .card-body {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    #cart .cart-btn li a {
+        font-size: 15px;
+        padding: 5px 14px;
+    }
+
+    .noor {
+        padding-bottom:10px !important;
+        margin-bottom:0;
+    }
+
+    .blog-page .card h5 a {
+        font-size: 16px !important;
+    }
+
+    .blog-info span {
+        font-size: 11px;
+    }
+
+    .blog-info i {
+        font-size: 11px;
+    }
+
+    #see-more .card h5 a {
+        font-size: 18px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+}
